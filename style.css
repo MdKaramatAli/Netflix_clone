@@ -1,0 +1,622 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.nav-cointainer
+{
+    width: 100%;
+    height: 700px !important;
+    background-image: linear-gradient(to top,rgba(0,0,0,.9), rgba(0, 0, 0, .3),  rgb(0,0, 0,.9)), url(nav-hero-section.jpg);
+    padding-bottom: 3rem;
+}
+.nav-section
+{
+    display: flex;
+    justify-content: space-between;
+}
+.netflix-logo
+{
+    color: rgba(252, 5, 5, 0.884);
+    fill: currentColor;
+    width: 9rem;
+    margin: .3rem 0 0 .6rem;
+}
+.nav-text
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.language
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.314);
+    padding:.5rem .8rem;
+    border-radius: .3rem;
+    margin-right: 1.5rem;
+}
+.language-icon,i
+{
+    font-size: 1rem;
+    color: white;
+}
+.language-name
+{
+    padding:0 .5rem;   
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.language-list i
+{
+    font-size: .75rem;
+}
+.login
+{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.763);
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    font-weight: 600;
+}
+.hero
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+.hero-section h1
+{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+.hero-section h3{
+    font-size: 1.2rem;
+    margin: 1rem 0 0;
+    font-weight: 100;
+}
+.hero-section-text
+{
+    margin-top: 1.5rem;
+}
+.hero-section-text h4
+{
+    font-size: 1.1rem;
+    word-spacing: .2rem;
+    font-weight: 100;
+    word-spacing: .15rem;
+}
+.email
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 1rem auto 0;
+    gap: .5rem;
+}
+.email-text
+{
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: inherit;
+    padding: .5rem;
+    background-color: black;
+    border: 1px solid rgba(235, 228, 228, 0.8);
+    border-radius: 3px ;
+}
+.email h2
+{
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: .5rem 1.2rem;
+    border-radius: 3px;
+    font-size: 1.3rem;
+} 
+.last-line
+{
+    width: 100%;
+    border: .25rem solid rgba(0,0,0, .75);
+}
+
+.card-section-a,.card-section-b
+{
+    min-width: auto;
+    background-color: black;
+    padding: 4.5rem 0 ;
+}
+.section-a,.section-b
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-section-box1-a,.card-section-box1-a
+{
+    margin: 0 auto;
+}
+.box1-head-a,.box1-head-b
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.box1-head-text-a,.box1-head-text-b
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+ .image-a,.image-b
+{
+    width: 560px;
+    height: 100%;
+}
+.image-container-a,.image-container-b
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.card-section-box2-a
+{
+    position: relative;
+    z-index: 0;
+    padding-left: 1rem;
+} 
+.card-section-box2-b
+{
+    position: relative;
+    z-index: 0;
+    padding-right: 1rem;
+}
+.video-box-a
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    max-width: 71.5%;
+    max-height: 59%;
+    top: 18%;
+    left: 15.5%;
+}
+.video-box-c
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    max-width: 61.5%;
+    max-height: 55%;
+    top: 6.5%;
+    left: 19.5%;
+}
+
+
+.small-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    border: 1px solid white;
+    background-color: black;
+    padding: .3rem .5rem;
+    top: 67%;
+    left: 20.5%;
+    border-radius: .5rem;
+
+}
+.small-box1
+{
+    width: 3.5rem;
+    height: 5rem;
+}
+.small-box2-1
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+}
+.small-box2-2
+{
+    font-size: .9rem;
+    color: blue;
+    text-align: left;
+}
+.small-box3
+{
+    background: url(download-icon.gif);
+    width: 4rem !important;
+    height: 5rem;
+    margin-top: .5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.asked-question
+{
+    height: 58rem;
+    background-color: black;
+    padding: 4.5rem 0;
+    text-align: center;
+}
+
+.asked-question-body
+{
+    max-width: 76%;
+    margin: auto;
+}
+.asked-question-head
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.asked-question-text
+{
+    margin: 1.1em 0 ;
+    font-size: 1.5rem;
+
+}
+.asked-question-box
+{
+    display: flex;
+}
+.a ,.b
+{
+    width: 100%;
+    background-color: rgba(110, 110, 110, 0.378);   
+    margin-bottom: .5rem;
+    padding:1.5rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+.b
+{
+    max-width: 70px;
+    text-align: right;
+}
+
+
+
+
+.footers
+{
+    background-color: black;
+    color: rgb(255,255,255,.8);
+}
+.footer-body a
+{
+    color: rgb(255,255,255,.8);
+    font-size: .9rem;
+}
+.footer-box1
+{
+    margin-bottom: .3rem;
+    display: inline-block;
+}
+.footer-body
+{
+    width: 83%;
+    margin: auto;
+    padding: 4.5rem 0;
+}
+.footer-box2
+{
+    text-align: left;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: .1rem;
+}
+li
+{
+    list-style: none;
+}
+.list
+{
+    margin-top: 1rem;
+}
+.lists
+{
+    margin-top: 2rem;
+}
+.lists a
+{
+    text-decoration:none;
+    font-size: 1.3rem;
+}
+
+
+    /*-------- responsive -------- */
+
+     /*--------- for nav section----- */
+@media screen and (min-width:1280px)
+{
+
+    .nav-section
+    {
+        max-width: 85vw;
+        padding:1.5rem 3rem;
+        margin: 0 auto;
+    }
+    .hero-section
+    {
+        margin:  7rem 5rem 0;
+        text-align: center;
+    }
+    .email-text
+    {
+        width: 25rem;
+    }
+
+    .section-a,.section-b
+    {
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1280px)
+{
+
+    .nav-section
+    {
+        display: flex;
+        justify-content: space-between;
+        padding:1.5rem 2.5rem;
+    }
+    .hero-section
+    {
+        margin: 8.5rem 2rem 0; 
+    }
+
+
+    .section-a,.section-b
+    {
+        margin: 0 2rem;
+    }
+    .box1-head-a,.box1-head-b
+    {
+        font-size: 2.5rem;
+    }
+
+    .small-box2
+    {
+        width: 60%;
+    }
+
+    .asked-question-body
+    {
+        max-width: 94%;
+    }
+
+
+    .footer-body
+    {
+        width: 90%;
+        margin: auto;
+        padding: 1rem 0;
+    }
+
+}
+@media screen and (max-width:960px)
+{
+    .nav-cointainer
+    {
+        height: 512px !important;
+    }
+    .netflix-logo
+    {
+        width: 5.5rem;
+    }
+    .language
+    {
+        margin-right: .5rem;
+    }
+    .hero-section
+    {
+        margin: 3.5rem 3rem 0 ;
+    }
+    .hero-section h1
+    {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .hero-section-text
+    {
+        padding: 0 1rem;
+    }
+
+
+    .card-section-a,.card-section-b
+    {
+        height: 40rem;
+    }
+    .section-a 
+    {
+        display: block;
+        text-align: center;
+        max-width: calc(100% - 4rem);
+        margin: 1rem  auto 0;
+    }
+    .section-b
+    {
+        display:flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        max-width: calc(100% - 4rem);
+    }
+
+    .box1-head-a,.box1-head-b
+    {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .box1-head-text-a,.box1-head-text-b
+    {
+        font-size: 1.1rem;
+    }
+    .card-section-box2-a,.card-section-box2-b
+    {
+        align-items: center;
+        padding: 0;
+    }
+    .image-a
+    {
+        margin:  auto;
+        max-width:88%;
+    }
+    .image-b
+    {
+        margin:  auto;
+        max-width:100%;
+    }
+    .video-box-c
+    {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        max-width: 65.5%;
+        max-height: 49%;
+        top: 13%;
+        left: 17%;
+    }
+
+    
+    .small-box
+    {
+        top: 67%;
+        left: 16.5%;
+        
+    }
+    .small-box2
+    {
+        width: 60%;
+        min-width: 12rem;
+    }
+    .small-box1,.small-box3
+    {
+        width: 3.2rem;
+        height: 4rem;
+    }
+
+
+    .asked-question
+    {
+        height: auto;
+    }
+    .asked-question-head
+    {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .a,.b
+    {
+        font-size: 1.2rem;
+        padding: 1.2rem;
+    }
+
+
+    ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: .1rem;
+    }
+
+
+}
+@media screen and (max-width:600px)
+{
+    .nav-cointainer
+    {
+        height: 480px !important;
+    }
+    .nav-section
+    {
+        padding: 1.5rem ;
+    }
+    .language-icon,i
+    {
+        padding: 0 .2rem;
+    }
+    .language-name
+    {
+        display: none;
+    }
+    .hero-section
+    {
+        margin:  0 1rem;
+    }
+    .email
+    {
+        display: block;
+    }
+    .email-text
+    {
+        width: 85%;
+    }
+    .email h2
+    {
+        width: 10.5rem;
+        align-items: center !important;
+        margin: 1rem auto;
+        padding: .5rem;
+        
+    }
+    .email h2,i,.email-text
+    {
+        font-size: 1rem;
+    }
+
+    
+    .section-a,.section-b
+    {
+        text-align: center;
+        max-width: calc(100% - 2rem);
+        max-height: calc(100% - 2rem);
+    }
+    .image-a
+    {
+        margin: auto;
+        width: 100%;
+        height: min-content;
+    }
+    .image-b
+    {
+        margin: auto;
+        width: 100%;
+        height: max-content;
+        /* position: relative; */
+            width: auto;
+    }
+
+
+    .small-box
+    {
+        
+        display: none;
+        
+    }
+
+} 
+@media screen and (max-width:500px)
+{
+
+    .nav-cointainer
+    {
+        height: 580px !important;
+    }
+    .card-section-a,.card-section-b
+    {
+        height: 35rem;
+    }
+}
